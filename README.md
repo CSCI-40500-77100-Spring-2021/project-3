@@ -1,5 +1,6 @@
 # project-3
-project-project-3 created by GitHub Classroom
+Group Members: Alleene Lacaba, Chuan-Yao Lin, John Durasko, Kyle Wynne, Samuel Ebersole
+
 
 PRODUCT VISION:
 FOR People of all skill levels interested in creating music 
