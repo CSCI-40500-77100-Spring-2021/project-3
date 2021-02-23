@@ -9,3 +9,9 @@ THAT provides an interactive, easy to use interface that allows users to collabo
 UNLIKE other online DAWs, such as Bandlab and SongCollab,
 JamSession expands on a social media style platform that allows users to share tracks and have other users add on to them. 
 OUR PRODUCT Jam Session is made specifically to be a social network based on improvisational musical collaboration with strangers.
+
+# MOCKUP: INSTALL AND RUN
+
+1. cd into ./mockup
+2. run npm install
+3. run npm start
