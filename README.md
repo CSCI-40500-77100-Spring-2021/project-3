@@ -1,4 +1,4 @@
-# project-3
+# project-3 // JAMSESSION
 Group Members: Alleene Lacaba, Chuan-Yao Lin, John Durasko, Kyle Wynne, Samuel Ebersole
 
 
