@@ -11,6 +11,7 @@ JamSession expands on a social media style platform that allows users to share t
 OUR PRODUCT Jam Session is made specifically to be a social network based on improvisational musical collaboration with strangers.
 
 # MOCKUP: INSTALL AND RUN
+Note: NodeJS is a prerequistite required to use this program. Download at https://nodejs.org/en/
 
 1. cd into ./mockup
 2. run npm install
