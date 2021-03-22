@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppRegistry, View, Image, StyleSheet } from 'react-native';
-import Post from './post';
+import Post from './post.component';
 
 class Feed extends React.Component {
     constructor(props)  {
