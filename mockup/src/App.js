@@ -61,7 +61,7 @@ class App extends Component {
           <View style={{position:'absolute', top:0}}>
             {this.state.showAddTrackView ?
                 <AddTrackView 
-                style={{zIndex:2}}
+                style={{zIndex:3}}
                 toggleAddTrackView={this.toggleAddTrackView.bind(this)}
                 />
                 : null

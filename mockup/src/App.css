@@ -76,6 +76,16 @@
 
 /* Feed styling */
 
+.feed-postbox {
+  margin-bottom: 10px;
+}
+
+.feed-postbox-textbox {
+  height: 80px;
+  width: 80%;
+  margin: 10px;
+}
+
 .post {
   background-color: cadetblue;
   border-style: solid;
