@@ -4,8 +4,16 @@ import { AppRegistry, View, Image, StyleSheet } from 'react-native';
 
 class Post extends React.Component {
 
+    toggleCommentBox() {
+      this.setState({showCommentBox: !this.state.showCommentBox})
+    }
+
     constructor(props)  {
       super(props);
+      this.toggleCommentBox = this.toggleCommentBox.bind(this);
+      this.state = {
+        showCommentBox: false
+      };
     }
 
     render() {
@@ -43,7 +51,21 @@ class Post extends React.Component {
                 <button>Share</button>
                 <button onClick={this.props.toggleTreeView}>View Tree</button>
                 <button onClick={this.props.toggleAddTrackView}>Add Track</button>
+                <button onClick={this.toggleCommentBox}>Comment</button>
 
+              </div>
+
+              <div>
+                {this.state.showCommentBox ?
+                  <div class='post-commentbox'>
+                    <input class='post-commentbox-input'></input>
+                    <div>
+                      <button onClick={this.toggleCommentBox}>Cancel</button>
+                      <button onClick={this.toggleCommentBox}>Submit</button>
+                    </div>
+                  </div>
+                  : null
+                }
               </div>
 
           </div>
