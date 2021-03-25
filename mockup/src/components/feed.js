@@ -15,6 +15,14 @@ class Feed extends React.Component {
           justifyContent: 'space-between',
           backgroundColor: 'cadetblue'
         }}>
+          <div class='feed-postbox'>
+            <input class='feed-postbox-textbox'></input>
+            <div>
+              <button>Record Track</button>
+              <button>Upload Track</button>
+              <button>Submit</button>
+            </div>
+          </div>
           <div class='feed'>
             <Post toggleTreeView={this.props.toggleTreeView} toggleAddTrackView={this.props.toggleAddTrackView} />
             <Post toggleTreeView={this.props.toggleTreeView} toggleAddTrackView={this.props.toggleAddTrackView} />
