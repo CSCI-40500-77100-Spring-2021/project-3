@@ -29,7 +29,7 @@ Non-functional product characteristics are important. We need to ensure our prod
 
 Number of users is an important quality. JAM SESSION is to be used as a social media platform which needs to prepare for a large amount of users. Number of users needs to be considered to prevent performance degradation. If possible we should consider designing our architecture that allows for the ability to quickly scale up and down.
 
-**Architecture Design**
+# Architecture Design
 
 **User Interface**
 
