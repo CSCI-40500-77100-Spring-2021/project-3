@@ -34,19 +34,25 @@ Number of users is an important quality. JAM SESSION is to be used as a social m
 **User Interface**
 
  | Web Browser | Mobile Browser | Mobile App |
+ | :-: | :-: | :-: |
  
 **User Authentication and User Interaction Management**
 
  | Login | Interface creation (users customized homepage) | Interface Delivery (React native) |
+ | :-: | :-: | :-: |
  
 **Application-specific Functionality**
 
  | Posting (uploading and/or recording music) | Commenting on posts | Browsing/Searching Musicians/Artists |
+ | :-: | :-: | :-: |
 
 **Basic Shared Services**
 
 **Transaction and Database Management**
 
 | NoSQL Database | User Storage | Search |
+| :-: | :-: | :-: |
 
-
+**Technologies To Be Used**
+- NoSQL
+- React Native
