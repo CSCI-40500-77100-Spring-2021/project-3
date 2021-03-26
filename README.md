@@ -48,10 +48,13 @@ Number of users is an important quality. JAM SESSION is to be used as a social m
 
 **Basic Shared Services**
 
+| Search | User Storage |
+| :-: | :-: |
+
 **Transaction and Database Management**
 
-| NoSQL Database | User Storage | Search |
-| :-: | :-: | :-: |
+| NoSQL Database |
+| :-: |
 
 # Technologies To Be Used
 - NoSQL
