@@ -53,7 +53,7 @@ Number of users is an important quality. JAM SESSION is to be used as a social m
 | NoSQL Database | User Storage | Search |
 | :-: | :-: | :-: |
 
-**Technologies To Be Used**
+# Technologies To Be Used
 - NoSQL
 - React Native (ReactJS)
 - Cloud Based Server
