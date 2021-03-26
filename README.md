@@ -21,11 +21,32 @@ Note: NodeJS is a prerequisite required to use this program. Download at https:/
 # Layered Software Architecture
 
 **Most Important Qualites**
-1. Non-functional Product Characteristics
+- Non-functional Product Characteristics
 
-  Non-functional product characteristics are important. We need to ensure our product has good performance otherwise it will drive away users. Security is also extremely      important as we strive to be a social media platform which will house users information which needs to remain safe. If there is a security compromise it could cause users to not want to use our product.
+Non-functional product characteristics are important. We need to ensure our product has good performance otherwise it will drive away users. Security is also extremely      important as we strive to be a social media platform which will house users information which needs to remain safe. If there is a security compromise it could cause users to not want to use our product.
 
-2. Number of Users
+- Number of Users
 
-  Number of users is an important quality. JAM SESSION is to be used as a social media platform which needs to prepare for a large amount of users. Number of users needs to be considered to prevent performance degradation. If possible we should consider designing our architecture that allows for the ability to quickly scale up and down.
+Number of users is an important quality. JAM SESSION is to be used as a social media platform which needs to prepare for a large amount of users. Number of users needs to be considered to prevent performance degradation. If possible we should consider designing our architecture that allows for the ability to quickly scale up and down.
+
+**Architecture Design**
+
+**User Interface**
+
+ | Web Browser | Mobile Browser | Mobile App |
+ 
+**User Authentication and User Interaction Management**
+
+ | Login | Interface creation (users customized homepage) | Interface Delivery (React native) |
+ 
+**Application-specific Functionality**
+
+ | Posting (uploading and/or recording music) | Commenting on posts | Browsing/Searching Musicians/Artists |
+
+**Basic Shared Services**
+
+**Transaction and Database Management**
+
+| NoSQL Database | User Storage | Search |
+
 
