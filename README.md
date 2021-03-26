@@ -57,6 +57,8 @@ Number of users is an important quality. JAM SESSION is to be used as a social m
 | :-: |
 
 # Technologies To Be Used
-- NoSQL
+- NoSQL (MongoDB - Store comments, media file link, likes and other analytics)
 - React Native (ReactJS)
-- Cloud Based Server
+- Express.js (Handle routing)
+- Cloud Based Server (Firebase for Storage and User Authentication)
+- Axios (Connect the backend, data retrieval, and front-end, user interface interaction)
