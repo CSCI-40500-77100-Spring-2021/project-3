@@ -1,0 +1,23 @@
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    padding: 7px;
+    color: #a7adba;
+    background-color: #706EA1;
+}
+.ul-side-nav{
+    list-style: none;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.ul-side-nav > li {
+    padding: 7px;
+}
+
+.side-nav-anchor{
+    cursor: pointer;
+    text-decoration: none;
+    color: #707070;
+}
