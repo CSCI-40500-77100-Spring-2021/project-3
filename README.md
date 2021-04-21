@@ -10,6 +10,11 @@ UNLIKE other online DAWs, such as Bandlab and SongCollab,
 JamSession expands on a social media style platform that allows users to share tracks and have other users add on to them. 
 OUR PRODUCT Jam Session is made specifically to be a social network based on improvisational musical collaboration with strangers.
 
+# Docker
+1. docker pull kwynne99/jamsession
+2. docker run -d -it -p 80:80/tcp --name react-app kwynne99/jamsession
+3. Open http://localhost in browser.
+
 # MOCKUP: INSTALL AND RUN
 Note: NodeJS is a prerequisite required to use this program. Download at https://nodejs.org/en/
 
