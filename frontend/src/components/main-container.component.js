@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import UserProfile from "./user-profile.component";
+import PostMediaBox from "./audio_post.component";
 import Recommendations from "./recommendations.component";
+
 //import logo from '../logo.png';
 //import SexyMenu from '../sexy-menu.png';
 
@@ -16,8 +19,12 @@ export default class MainContainer extends Component {
               </form>
             </div>
             <div id="main-area-container">
-                <div></div>
-                <div></div>
+                <div>
+                    <UserProfile/>
+                </div>
+                <div>
+                    <PostMediaBox/>
+                </div>
             </div>            
             <div id="recommendations-section-container">
                 <Recommendations/>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 //import { AppRegistry, View, Image, StyleSheet } from 'react-native';
+import './common_style.css';
 import './App.css';
 import Main from './components/main.component';
 //import Outliner from './components/outliner.component';

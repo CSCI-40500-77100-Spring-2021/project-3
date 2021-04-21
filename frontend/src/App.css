@@ -2,13 +2,6 @@ body {
   background-color: #E6F4F1;
 }
 
-h1{
-  font-family: 'Montserrat', sans-serif;
-	font-size: 2em;
-	padding: 7px;
-	color: #a7adba;
-  background-color: #706EA1;
-}
 .App {
   text-align: center;
 }
@@ -94,7 +87,7 @@ h1{
   height: 768px;
   margin: 0;
   font-size: 30px;
-  background-color: chocolate;
+  
 }
 
 #search-bar{
@@ -127,6 +120,52 @@ h1{
   outline-style: none;
 }
 
+/*------------------------------
+      User Account Profile Section
+--------------------------------*/
+#user-profile-container{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: 100%;
+}
+.img-user-profile{
+  margin-top: 25px;
+  display: block;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*------------------------------
+      Post Media Section
+--------------------------------*/
+.post-img-user-profile{
+  margin-top: 25px;
+  display: block;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  
+}
+.post-media-container{ 
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.ul-post-comment-box{
+  list-style-type: none;
+  font-size: 12px;
+  width: 80%;
+  margin: 5px auto;
+  padding-bottom: 10px;
+}
+
+.ul-post-comment-box > li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #707070;
+}
 
 
 
