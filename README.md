@@ -11,6 +11,7 @@ JamSession expands on a social media style platform that allows users to share t
 OUR PRODUCT Jam Session is made specifically to be a social network based on improvisational musical collaboration with strangers.
 
 # Docker
+Once you have docker installed you can pull and run the container using the following steps:
 1. docker pull kwynne99/jamsession
 2. docker run -d -it -p 80:80/tcp --name react-app kwynne99/jamsession
 3. Open http://localhost in browser.
