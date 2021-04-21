@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from "react-player";
-import { AppRegistry, View, Image, StyleSheet } from 'react-native';
+//import { AppRegistry, View, Image, StyleSheet } from 'react-native';
 
 class Post extends React.Component {
 

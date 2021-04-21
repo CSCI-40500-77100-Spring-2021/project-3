@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppRegistry, View, Image, StyleSheet } from 'react-native';
+//import { AppRegistry, View, Image, StyleSheet } from 'react-native';
 
 const Outliner = () => {
     return (

@@ -1,0 +1,27 @@
+*,
+html,
+body,
+.content,
+#wrapper,
+#header,
+#main,
+#top-nav,
+form,
+input,
+button,
+h1,
+h2,
+h3,
+img,
+p,
+ul,
+li,
+a
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	
+}	
