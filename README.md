@@ -13,10 +13,9 @@ OUR PRODUCT Jam Session is made specifically to be a social network based on imp
 # MOCKUP: INSTALL AND RUN
 Note: NodeJS is a prerequisite required to use this program. Download at https://nodejs.org/en/
 
-1. cd to ./frontend
-2. run npm install
-3. run start
-
-1. cd into ./mockup
+1. cd to ./backend
 2. run npm install
 3. run npm start
+4. cd into ./frontend
+5. run npm install
+6. run npm start
