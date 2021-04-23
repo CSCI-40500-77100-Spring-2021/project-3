@@ -5,6 +5,14 @@ h1{
     color: #a7adba;
     background-color: #706EA1;
 }
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    padding: 7px;
+    color: #885887;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
 .ul-side-nav{
     list-style: none;
     font-size: 16px;
@@ -21,3 +29,35 @@ h1{
     text-decoration: none;
     color: #707070;
 }
+
+/*-----------------------------------
+            Containers
+
+-------------------------------------*/
+#add-media-container{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/*--------------------------------------
+            Forms
+
+-----------------------------------------*/
+#add-media-container > form {
+    font-size: 14px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#submit-button {
+    color: #fff;
+	background-color: #5F9EA0;
+	text-align: center;
+	margin: 25px 0 20px 0;
+	padding: 8px;
+}
+
+
+
+
+
