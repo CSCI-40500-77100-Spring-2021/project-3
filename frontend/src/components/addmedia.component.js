@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import AudioRecording from "./audio_recording.component";
 
 import { Link } from 'react-router-dom';
 
-export default class  extends Component {
+export default class extends Component {
 
   render() {
     return ( 
@@ -12,10 +13,10 @@ export default class  extends Component {
                 <label for="audio">Choose audio:</label><br/>
                 <input type="file" id="audio" name="audio" accept="audio/*,video/*,"/><br/>
                 <br/><p>Or Record Track</p><br/>
-                <label for="record">Choose audio:</label><br/>
-                <input type="file" id="record" name="record" accept="audio/*,video/*,"/><br/>
+                <AudioRecording/>
                 <button id="submit-button" name="submit">Add audio</button>
             </form>
+            
         </div>
         
     );
