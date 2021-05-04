@@ -17,6 +17,6 @@ Note: NodeJS is a prerequisite required to use this program. Download at https:/
 2. run npm install
 3. run start
 
-1. cd into ./mockup
+1. cd into ./backup
 2. run npm install
 3. run npm start
