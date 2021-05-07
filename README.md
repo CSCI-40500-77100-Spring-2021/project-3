@@ -15,7 +15,7 @@ Note: NodeJS is a prerequisite required to use this program. Download at https:/
 
 1. cd to ./frontend
 2. run npm install
-3. run start
+3. run npm start
 
 1. cd into ./backup
 2. run npm install
