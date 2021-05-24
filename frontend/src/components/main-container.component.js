@@ -1,11 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component , useEffect} from 'react';
+
 import UserProfile from "./user-profile.component";
 import AddMediaForm from "./addmedia.component"
 import PostMediaBox from "./audio_post.component";
 import Recommendations from "./recommendations.component";
+const axios = require('axios');
 
 //import logo from '../logo.png';
 //import SexyMenu from '../sexy-menu.png';
+
 
 export default class MainContainer extends Component {
 
@@ -24,7 +27,7 @@ export default class MainContainer extends Component {
                     <UserProfile/>
                 </div>
                 <div>
-                    <AddMediaForm/>
+                    <PostMediaBox/>
                 </div>
             </div>            
             <div id="recommendations-section-container">
