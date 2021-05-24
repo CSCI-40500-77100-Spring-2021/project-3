@@ -1,7 +1,7 @@
 # project-3 // JAMSESSION
 Group Members: Alleene Lacaba, Chuan-Yao Lin, John Durasko, Kyle Wynne, Samuel Ebersole
 
-<img src='badge-branches.svg'>
+<img src='badge-branches.svg'> <img src='badge-functions.svg'> <img src='badge-functions.svg'> <img src='badge-statements.svg'>
 
 
 PRODUCT VISION:
