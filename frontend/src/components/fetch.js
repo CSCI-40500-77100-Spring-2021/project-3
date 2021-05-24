@@ -3,21 +3,21 @@ import axios from 'axios'
 
 const initialState = {
   error: null,
-  greeting: null,
+  audioPost: [],
 }
 
-function greetingReducer(state, action) {
+function getAudioPost(state, action) {
   switch (action.type) {
     case 'SUCCESS': {
       return {
         error: null,
-        greeting: action.greeting,
+        audioPost: action.audioPost,
       }
     }
     case 'ERROR': {
       return {
         error: action.error,
-        greeting: null,
+        greeting: { },
       }
     }
     default: {
@@ -27,33 +27,33 @@ function greetingReducer(state, action) {
 }
 
 export default function Fetch({ url }) {
-  const [{ error, greeting }, dispatch] = useReducer(
-    greetingReducer,
+  const [{ error, audioPost }, dispatch] = useReducer(
+    getAudioPost,
     initialState
   )
   const [buttonClicked, setButtonClicked] = useState(false)
 
-  const fetchGreeting = async (url) =>
+  const fetchAudioPost = async (url) =>
     axios
       .get(url)
       .then((response) => {
         const { data } = response
-        const { greeting } = data
-        dispatch({ type: 'SUCCESS', greeting })
+        const { audioPost } = data
+        dispatch({ type: 'SUCCESS', audioPost })
         setButtonClicked(true)
       })
       .catch((error) => {
         dispatch({ type: 'ERROR', error })
       })
 
-  const buttonText = buttonClicked ? 'Ok' : 'Load Greeting'
+  const buttonText = buttonClicked ? 'Ok' : 'Load Post'
 
   return (
     <div>
-      <button onClick={() => fetchGreeting(url)} disabled={buttonClicked}>
+      <button onClick={() => fetchAudioPost(url)} disabled={buttonClicked}>
         {buttonText}
       </button>
-      {greeting && <h1>{greeting}</h1>}
+      {audioPost && <h1>{audioPost}</h1>}
       {error && <p role="alert">Oops, failed to fetch!</p>}
     </div>
   )

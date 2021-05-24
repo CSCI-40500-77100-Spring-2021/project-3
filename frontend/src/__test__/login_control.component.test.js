@@ -6,8 +6,7 @@ import {
     getByText,
     getByTestId,
     queryByTestId,
-    // Tip: all queries are also exposed on an object
-    // called "queries" which you could import here as well
+    
     waitFor,
   } from '@testing-library/dom'
   
@@ -25,7 +24,7 @@ const setup = () => {
 
 afterEach(cleanup);
 
-test('Properly gets input data', () => {
+test('Properly gets username input data', () => {
   const { input } = setup()
   fireEvent.change(input, { target: { value: '$23' } })
   expect(input.value).toBe('$23')
